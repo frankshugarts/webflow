@@ -1,0 +1,30 @@
+.div-block {
+  background-color: #12344d;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  box-shadow: 0 2px 5px #06221b;
+}
+
+.button {
+  background-color: #12344d;
+  border: 5px solid #000;
+  border-width: 1px 5px 5px 1px;
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.body {
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border-radius: 8px;
+  transition: opacity .2s;
+  box-shadow: 0 19px 5px #0003;
+}
+
+
